@@ -9,11 +9,12 @@ The plugin utilizes params in UI to set the webhook url.
 ## setup
 
 - Install teams.py as `/omd/sites/{your_site}/local/share/check_mk/notifications/teams`
-- ensure it's executable (`chmod +x teams`)
-- setup notification. method = 'Microsoft Teams', param = webhook url
+- Ensure plugin is executable (`chmod +x teams`)
+- Setup notification. method = 'Microsoft Teams', param = webhook url
 ![Example Config](img/example-config.png)
 
 ## Credits
 
-CheckMK Team -- this is a modified version of their slack webhook plugin
-RileyMichael -- this plugin is based on his work (https://github.com/RileyMichael)
+CheckMK Team -- this is a modified version of their slack webhook plugin.  
+RileyMichael -- this plugin is based on his work (https://github.com/RileyMichael).  
+
