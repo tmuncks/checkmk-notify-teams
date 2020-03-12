@@ -11,6 +11,7 @@ The plugin utilizes params in UI to set the webhook url.
 - Install teams.py as `/omd/sites/{your_site}/local/share/check_mk/notifications/teams`
 - Ensure plugin is executable (`chmod +x teams`)
 - Setup notification. method = 'Microsoft Teams', param = webhook url
+
 ![Example Config](img/example-config.png)
 
 ## Credits
