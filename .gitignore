@@ -1,5 +1,14 @@
-.idea
-.DS_STORE
-venv/
+# Byte-compiled / optimized / DLL files
 __pycache__/
-.python-version
+*.py[cod]
+
+# Visual Studio Code configuration
+.vscode/
+
+# Various project stuff
+/tmp/*
+!/tmp/.gitkeep
+
+# Python environment
+/venv/*
+
