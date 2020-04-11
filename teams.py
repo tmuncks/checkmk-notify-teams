@@ -59,9 +59,9 @@ def teams_msg(context):
         color = COLORS.get(context["SERVICESTATE"])
         title = "Service {NOTIFICATIONTYPE} notification".format(**context)
         facts.extend([
+            {"name": "Host:", "value": context["HOSTNAME"]},
             {"name": "Service:", "value": context["SERVICEDESC"]},
-            {"name": "Service state:", "value": context["SERVICESTATE"]},
-            {"name": "Host:", "value": context["HOSTNAME"]}
+            {"name": "Service state:", "value": context["SERVICESTATE"]}
         ])
         output = context["SERVICEOUTPUT"] if context["SERVICEOUTPUT"] else ""
 
